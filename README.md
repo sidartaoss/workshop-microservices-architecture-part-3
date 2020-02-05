@@ -230,7 +230,7 @@ permissions:
 
 This is a configuration file which instructs CodeDeploy on the various steps of the Deployment.
 
-We can see here, for example, that in the Application Stop state, the stop_server.sh will run, while, in the Application Start state, the start_server.sh script will run.
+We can see here, for example, that in the ApplicationStop statement, the stop_server.sh will run, while in the ApplicationStart statement, the start_server.sh script will run.
 
 The script for starting the server is extremely simple.
 
